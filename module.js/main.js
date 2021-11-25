@@ -13,6 +13,10 @@ console.log(movies.actionMovie)
 require('./abimbola')
 require('./adegoke')
 
+//importing variables from var-export
+require('./var-export')
+
+
 /*this will pass the same favMovie value for abimbola and adegoke even tho adegoke didn't set
 favorite movie
 they're sharing the same version or copy of the movie.js module

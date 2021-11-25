@@ -12,7 +12,7 @@ var fs = require('fs') //importing file system
 var app = connect()
 
 
-/*
+
 //404 Response
 function notFoundResponse(response){
     response.writeHead(404, {"Content-Type": "text/plain"})
@@ -42,8 +42,8 @@ function profile(request, response){
 }
 
 
- */
 
+/*
 function about(request, response){
     console.log("About was visited")
 }
@@ -52,8 +52,8 @@ function profile(request, response){
     console.log("Profile was visited")
 }
 
-
+*/
 app.use('/profile', profile)
 app.use('/about', about)
 
-http.createServer(app).listen(8888)
+http.createServer(app).listen(8088)
