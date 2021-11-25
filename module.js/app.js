@@ -16,6 +16,9 @@ require('./adegoke')
 //importing variables from var-export
 require('./var-export')
 
+//importing addvalues
+require('./addvalue')
+
 
 /*this will pass the same favMovie value for abimbola and adegoke even tho adegoke didn't set
 favorite movie

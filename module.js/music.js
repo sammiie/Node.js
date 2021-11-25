@@ -6,9 +6,9 @@ function music2(){
     console.log("Heaven: Kean Brown")
 }
 
-/* To make use of this file in the main.js,
+/* To make use of this file in the app.js,
 we need to export it here first.
-then import it in the main.js file
+then import it in the app.js file
 
 we can specify which code to export
  */
